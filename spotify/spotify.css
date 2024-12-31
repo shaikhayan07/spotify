@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: black;
+    position: sticky;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+
+}
+.ico{
+    font-size: 40px;
+    padding: 15px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.icos{
+    font-size: 25px;
+    background-color: #1E1E1E;
+    width: 39px;
+    height: 39px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 400px;
+}
+
+.icos:hover{
+    transition: 0.4s;
+    transform: scale(1.1);      
+}
+.io{
+    margin-left: -20px;
+}
+.io i{
+    background-color: #2A2A2A;
+    font-size: 25px;
+    padding: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.io:hover{
+    background-color: rgba(128, 128, 128, 0.364);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.in input{
+    background-color: #2A2A2A ;
+    padding: 12.1px;
+    margin-left: -30px;
+    border:  none;
+    width: 350px;
+    color: rgba(255, 255, 255, 0.799);
+    outline: none;
+    
+}
+
+.in input:hover{
+    background-color: rgba(128, 128, 128, 0.364);
+}
+.bro{
+    background-color: #2A2A2A;
+    padding: 10.5px;
+    margin-left: -29.9px;
+    width: 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.but button{
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    margin-left: 90px;
+}
+.but button:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.butt{
+    margin-left: 20px;
+}
+.butt button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+    
+}
+.bell i{
+    font-size: 21px;
+    margin-left: 10px;
+}
+.ki:hover{
+    transform: scale(1.1);
+}
+.box{
+    background-color: #121212;
+    width: 420px;
+    height: 750px;
+    margin-left: 10px;
+    position: fixed;
+    border-radius: 10px;
+}
+.box1{
+    padding: 20px;
+    font-size: 27px;
+}
+.lab h3{
+    color: white;
+    margin-left: 55px;
+    margin-top: -45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.puls{
+    margin-left: 280PX;
+    font-size: 23px;
+    margin-top: -20px;
+    color: rgba(255, 255, 255, 0.773);
+}
+.arro{
+    font-size: 25px;
+    margin-left: 320px;
+    margin-top: -27px;
+    color: rgba(255, 255, 255, 0.773);
+}
+.butto1{
+    margin-left: -30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butto1 button{
+    background-color: #333333;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+.butto1 button:hover{
+    background-color: rgba(255, 255, 255, 0.197);
+}
+.butto2{
+    margin-left: 57px;
+    margin-top: -32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butto2 button{
+    background-color: #333333;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+.butto2 button:hover{
+    background-color: rgba(255, 255, 255, 0.197);
+}
+.butto3{
+    margin-left: 132px;
+    margin-top: -32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butto3 button{
+    background-color: #333333;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+.butto3 button:hover{
+    background-color: rgba(255, 255, 255, 0.197);
+}
+.search{
+    margin-top: 19px;
+    font-size: 20px;
+    margin-left: -25px;
+}
+.recent{
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.recent h3{
+    font-weight: 400;
+    color: #eae0e0a2;
+}
+.recent h3:hover{
+    transition: all 0.2s;
+    transform: scale(1.05);
+    color: white;
+}
+.list{
+    margin-left: 325px;
+    margin-top: -21px;
+    line-height: 3px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.list i{
+    font-weight: 400;
+}
+.list:hover{
+    transition: all 0.4s;
+    transform: scale(1.05);
+    color: white;
+}
+.emiway{
+    margin-top: 20px;
+    margin-left: -35px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 390px;
+}
+.emiway:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+    transition: all 0.2s;
+}
+.emiway1:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+    transition: all 0.2s;
+}
+.emiway2:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+    transition: all 0.2s;
+}
+.emiway3:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+    transition: all 0.2s;
+}
+.emiway4:hover{
+    background-color: rgba(255, 255, 255, 0.155);
+    transition: all 0.2s;
+}
+.emiway img{
+    border-radius: 30px;
+}
+.emiway h4{
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.emiway h5{
+    margin-top: 30px;
+    margin-left: -104px;
+    font-weight: 400;
+}
+.emiway1{
+    margin-top: 20px;
+    margin-left: -35px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 390px;
+}
+.emiway1 img{
+    border-radius: 30px;
+}
+.emiway1 h4{
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.emiway1 h5{
+    margin-top: 30px;
+    margin-left: -43px;
+    font-weight: 400;
+}
+.emiway2{
+    margin-top: 20px;
+    margin-left: -35px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 390px;
+}
+.emiway2 img{
+    border-radius: 30px;
+}
+.emiway2 h4{
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.emiway2 h5{
+    margin-top: 30px;
+    margin-left: -55px;
+    font-weight: 400;
+}
+.emiway3{
+    margin-top: 20px;
+    margin-left: -35px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 390px;
+}
+.emiway3 img{
+    border-radius: 30px;
+}
+.emiway3 h4{
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.emiway3 h5{
+    margin-top: 30px;
+    margin-left: -52px;
+    font-weight: 400;
+}
+.emiway4{
+    margin-top: 20px;
+    margin-left: -35px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 390px;
+}
+.emiway4 img{
+    border-radius: 30px;
+}
+.emiway4 h4{
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+.emiway4 h5{
+    margin-top: 30px;
+    margin-left: -70px;
+    font-weight: 400;
+}
+.bigbox{
+    background-color: #151515;
+    width: 1080px;
+    height: 750px;
+    display: flex;
+    margin-top: -579px;
+    margin-left: 430px;
+    border-radius: 10px;  
+}
+.navbe{
+    padding: 20px;
+    word-spacing: 6px;
+    height: 80px;
+    width: 70.4%;
+    background-color: #212121;
+    position: fixed;
+}
+.navbe button{
+    background-color: #3F3F3F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+.mc{
+    height: 50px;
+    margin-top: 110px;
+    width: 342px;
+    color: white;
+    display: flex;
+    background-color: #404040b7;
+    border-radius: 5px;
+    margin-left: 15px;
+    position: relative;
+}
+/*.mc::after{
+    content: url(https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png);
+}*/
+.mc h5{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mc img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mc:hover{
+    background-color: #6B6B6B;
+    transition: all 0.4s;
+}
+.mcstan{
+    height: 50px;
+    margin-top: 180px;
+    width: 343px;
+    color: white;
+    display: flex;
+    background-color: #404040b7;
+    border-radius: 5px;
+    margin-left: -1058px;
+}
+.mcstan h5{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mcstan img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mcstan:hover{
+    background-color: #6B6B6B;
+    transition: all 0.4s;
+}
+.mcstan1{
+    height: 50px;
+    margin-top: 180px;
+    width: 341px;
+    color: white;
+    display: flex;
+    background-color: #404040b7;
+    border-radius: 5px;
+    margin-left: 17px;
+}
+.mcstan1 h5{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mcstan1 img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mcstan1:hover{
+    background-color: #6B6B6B;
+    transition: all 0.4s;
+}
+.mcstan2{
+    height: 50px;
+    margin-top: 180px;
+    width: 343px;
+    color: white;
+    display: flex;
+    background-color: #404040b7;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+.mcstan2 h5{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mcstan2 img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mcstan2:hover{
+    background-color: #6B6B6B;
+    transition: all 0.4s;
+}
+.for{
+    margin-top: 290px;
+    margin-left: -1055px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    display: flex;
+}
+.for h5{
+    margin-left: 815px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.712);
+    margin-top: 20px;
+}
+.for h5:hover{
+    color: white;
+}
+.for h1{
+    position: relative;
+}
+.for h1::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    margin-top: 24px;
+    transition: all 0.4s;
+}
+.for h1:hover::before{width: 100%;}
+
+.epi{
+    width: 180px;
+    height: 266px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 445px;
+    display: flex;
+    color: white;
+    
+}
+.epi img{
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+.epi h5{
+    margin-top: 190px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.epi h6{
+    margin-top: 240px;
+    margin-left: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.epi:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+.epi1{
+    width: 180px;
+    height: 266px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 622px;
+    display: flex;
+    color: white;
+    
+}
+.epi1 img{
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+.epi1 h5{
+    margin-top: 190px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.epi1 h6{
+    margin-top: 240px;
+    margin-left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.epi1:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+.epi2{
+    width: 180px;
+    height: 266px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 800px;
+    display: flex;
+    color: white;
+    
+}
+.epi2 img{
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+.epi2 h5{
+    margin-top: 190px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.epi2 h6{
+    margin-top: 240px;
+    margin-left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.epi2:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+.epi3{
+    width: 180px;
+    height: 266px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 975px;
+    display: flex;
+    color: white;
+    
+}
+.epi3 img{
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+.epi3 h5{
+    margin-top: 190px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.epi3 h6{
+    margin-top: 240px;
+    margin-left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.epi3:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+.epi4{
+    width: 180px;
+    height: 266px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 1150px;
+    display: flex;
+    color: white;
+    
+}
+.epi4 img{
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+.epi4 h5{
+    margin-top: 190px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.epi4 h6{
+    margin-top: 240px;
+    margin-left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.epi4:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+.epi5{
+    width: 180px;
+    height: 266px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 1325px;
+    display: flex;
+    color: white;
+    
+}
+.epi5 img{
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+.epi5 h5{
+    margin-top: 190px;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.epi5 h6{
+    margin-top: 240px;
+    margin-left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.epi5:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+.arii{
+    color: white;
+    margin-top: -130px;
+    margin-left: 449px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
